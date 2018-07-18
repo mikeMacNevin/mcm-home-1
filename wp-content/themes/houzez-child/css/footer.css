@@ -1,0 +1,241 @@
+/* FOOTER STYLES */
+.mike-footer {
+    color: #eee;
+    background: linear-gradient(to bottom, rgb(50,50,50), #444 40%);
+    
+}
+/* .align-row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+} */
+
+/* 
+.mike-footer .col-md-4 {
+    display: flex;
+    height: 400px;
+    padding-right: 5px;
+    padding-left: 5px;
+    flex-direction: column;
+} */
+
+.contact-h3 {
+    font-size: 48px;
+    font-family: "Adobe-Caslon";
+}
+.inner-col {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+    margin: 0 auto
+}
+
+
+.footer-mcm h2 {
+    font-size: 36px;
+    font-family: Golden-Ratio;
+}
+.footer-mcm h3 {
+    font-size: 30px;
+    font-family: Golden-Ratio;
+    margin-bottom:5px;
+
+}
+
+.img-mcm {
+    width: 200px;
+    margin: 3% auto 1%;
+}
+
+.img-equal {
+    display: block;
+    
+    max-width: 100px;
+}
+.contact-col .list-group .list-group-item {
+    flex-direction: column;
+    padding-left: 0;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+.contact-col .list-group .text-nowrap {
+    margin-bottom: 2px;
+}
+button.list-group-item span {
+    color: black;
+    background-color: #eee;
+    padding-left: 10px;
+}
+.list-group-item  i {
+    width: 23px;
+}
+   
+
+.footer-contact {
+    max-width: 90%;
+    font-size: 24px;
+}
+.footer-contact li {
+    font-size: 18px;
+    border: 0;
+}
+
+.contact-col {
+    display:flex;
+    flex-direction: row;
+}
+
+#carousel-module-grid {
+    background-color: #610327;
+}
+
+.footer-about {
+    text-align: left;
+}
+.footer-about p {
+    float:right;
+    font-size: 18px;
+}
+.m-footer-form {
+    padding-top: 25px;
+}
+
+.wpcf7-form:last-child {
+    max-width: 570px;
+}
+
+.m-footer-form .wpcf7-submit {
+    display: block;
+    margin: 0 auto;
+    max-width: 570px;
+}
+
+.m-footer-form .wpcf7-submit {
+    background-color: #610327;
+}
+
+.footer-bottom-half {
+    background-color: #444;
+}
+
+.footer-about .input-group {
+    margin-top: 10%;
+}
+
+button.list-group-item {
+    font-size: 24px;
+    width:100%;
+    white-space: nowrap;
+}
+
+.footer-mcm {
+    margin: 0;
+}
+
+.footer-links-col {
+    vertical-align: center;
+}
+
+.footer-links {
+    font-size: 18px;
+    /* background-color: #555; */
+    max-width: 90%;
+}
+
+
+.footer-links .list-group-item {
+    float: right;
+    padding-top:5px;
+    padding-bottom: 5px;
+    border: 0 solid #ddd;
+    padding-left: 0;
+}
+
+.footer-links .list-group-item, 
+.footer-links .list-group-item span,
+.footer-links .list-group-item span i {
+    background-color: #444 !important ;
+    color: #eee !important;
+    vertical-align: center;
+}
+
+p > .wpcf7-submit {
+    transition: all 0.4s ease;
+    border: #222;
+}
+
+p > .wpcf7-submit:hover { 
+    background-color: white;
+    color: #610327;
+}
+
+.img-realtors{
+  height: 100px;
+}
+
+
+.mike-footer-bottom {
+    background-color: #666;
+    height: 60px;
+    padding-top: 100px;
+}
+
+
+
+.img-realtors {
+    margin-left: auto;
+}
+
+.form-col {
+    padding-left: 4%;
+}
+
+/* <div class="col-xs-12 col-md-6">
+<div class="inner-col footer-about">
+    <div class="footer-mcm">
+        <h2>The Hash Team</h2>
+        <h3>of MCM Realty</h3>
+        <br>
+    </div> 
+    <p>MCM Realty is a full-service boutique firm serving our clients’ commercial, residential, custom building, and investment real estate needs for over 30 years.</p>
+    <br>
+</div>
+</div>     */
+
+@media screen and (max-width: 768px) {
+    #equal-image-wrapper {
+        text-align: center;
+    }
+
+    .footer-links {
+        margin-top: 35px;
+    }
+
+    .footer-links .list-group-item {
+        left: -25px;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .contact-col {
+    padding-right: 0px;
+    }
+    .footer-links-col {
+    padding-right: 0px;
+    }
+
+    .footer-bottom-half .col-sm-3 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .form-col {
+        padding-left: 8%;
+    }
+}

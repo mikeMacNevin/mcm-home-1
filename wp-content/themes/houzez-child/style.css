@@ -1,0 +1,600 @@
+/* /*
+Theme Name: Houzez Child
+Theme URI: http://themeforest.net/user/favethemes/
+Template: houzez
+Author: Favethemes
+Author URI: http://www.favethemes.com/
+Description: Houzez is a premium WordPress theme for real estate agents where modern aesthetics are combined with tasteful simplicity, and where the ease of use is achieved without compromise in your ability to customise the design. Whether you are a real estate agent looking to build a website for your company or a web developer seeking a perfect WordPress theme for your next project, you are certain to appreciate the numerous features and benefits that our theme provides.
+Tags: right-sidebar,left-sidebar,custom-colors,custom-menu,featured-images,post-formats,theme-options,translation-ready
+Version: 1.5.7.3.1529872726
+Updated: 2018-06-24 20:38:46
+*/
+
+/* Global */
+body {
+    background-color: white;
+    font-family: "Adobe-Caslon";
+
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}
+
+.account-action {
+    display: none;
+}
+
+
+.navbar {
+    border-bottom-width: 0 !important;
+}
+
+.account-action .user-image {
+    display:none;
+}
+
+#section-body {
+    margin-bottom: 0;
+    padding-bottom:0;
+}
+
+#section-body > .container {
+    margin: 0;
+	width: 100%;	
+}
+
+
+.section-detail-content > .container {
+	width: 100%;
+}
+
+
+.advanced-search {
+    display: none;
+}
+
+.advanced-search-mobile {
+    display: none !important;
+}
+
+.header-mobile .mobile-nav {
+    float: right;
+}
+
+.list-grid-area {
+    float: left;
+}
+
+.page-template-template-agents #section-body > .container {
+    background: url('/images/spanish.jpg') cover;
+}
+
+.page-title {
+    padding-left: 15px;
+}
+
+.logo-mobile {
+    display: none;
+}
+
+
+
+
+/* HOME ONLY */ 
+ .home #section-body {
+    padding-bottom: 0 !important;
+    bottom:0;
+}
+
+.footer-bottom {
+    display: none;
+}
+
+.wpb_content_element {
+    margin-bottom: 0 !important;
+}
+
+.m-footer-bottom {
+    font-size: 24px;
+    background-color: #888;
+}
+
+.vc_separator {
+    padding-top: 25px;
+    font-size: 36px;
+    color: white;
+}
+
+.article-detail h4 {
+    font-family: "Adobe-Caslon" !important;
+
+}
+
+.home .houzez-module {
+    padding: 35px 15px 55px 15px;
+}
+
+.home .entry-content .col-sm-12 {
+    padding-left: 0;
+    padding-right:0;
+}
+
+.home .entry-content .row-fluid:nth-child(2) {
+    margin-left: 0px; 
+    margin-right:15px;
+}
+
+.home #section-body > .container {
+    padding-left:0;
+    padding-right:0;
+}
+
+.m-footer-bottom > div {
+    background-color: #888;
+}
+.home #header-section {
+    display: none;
+}
+.home .page-title.breadcrumb-top {
+    display: none;
+}
+.home .row > .container-contentbar {
+    padding-top: 0;
+}
+.home .header-section {
+    margin-bottom: -200px;
+    background-color: rgba(255,255,255, 0.2);
+}
+.home .header-left {
+    display: none;
+}
+
+.agent-wrapper h2 {
+    font-family: "Adobe-Caslon" !important;
+}
+.agent-wrapper .h4 {
+    margin-bottom: 1px;
+}
+
+#carousel-module-grid .module-nav {
+    display: none;    
+}
+
+.white-wrapper .text-center h1 {
+    font-size: 64px;
+    font-weight: bold;
+    font-family: "Adobe-Caslon";
+    color: #333
+}
+
+.white-wrapper .text-center {
+    text-align: center;
+}
+
+.white-wrapper p {
+  
+}
+
+
+
+.navbar-collapse .nav {
+    margin-top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+#OuterLayer {
+    background-image: url('/mcm/images/meadowlark.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+/* Navigation */ 
+
+
+
+/* Landing Image and Wrappers*/
+.m-image-wrapper {
+    display: flex;
+    background-color: rgba(255,255,255, 0.7);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left:2%;
+    max-width: 55%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.m-image-wrapper p {
+    font-style: italic;
+    margin-top: 10px !important;
+    font-size: 18px;
+}
+
+.navbar-nav li:last-child {
+    border-right: 0px solid white;
+  }
+
+
+
+.red-wrapper {
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+}
+.m-image-wrapper2 {
+    width: 70%;
+    background-color: rgba(97, 3, 39, 0.6);
+    padding-top: 20px;
+    padding-bottom: 25px;
+    min-height: 400px;
+}
+.m-image-wrapper2 .btn-default {
+    
+    margin-top: 0;
+    color: white;
+    background-color: #610327 ;
+    border-color: #fff;
+    background-image: none;
+
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.m-image-wrapper2 .btn-default a {
+    border-color: #610327;
+    color:white;
+}
+
+
+.m-image-wrapper2 .btn-default:hover, 
+.m-image-wrapper2 .btn-default a:hover  {
+    color: #610327;
+    background-color: white;
+}
+    
+.agent-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.agent-wrapper img {
+    margin-top: 1%;
+    width: 140px !important;
+    height: 160px;
+}
+.m-of-mcm {
+    margin-top: 3%;
+    margin-right: 15px;
+    margin-left: 15px;
+    color: #610327;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    font-size: 32px;
+}
+.m-of-mcm span {
+    display: inline-block;
+}
+
+.m-of-mcm img {
+    max-height: 100px;
+}
+.m-of-mcm span:before, .m-of-mcm span:after {
+    display: block;
+    width: 30%;
+    height: 1px;
+    position: absolute;
+    top: 0.6em;
+    content: " ";
+    border-top: 1px solid black;
+    left: 0;
+}
+.m-of-mcm span:after {
+    right: 0;
+    left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .navbar-nav {
+        float: right;
+        }
+    }
+    @media screen and (min-width: 992px) and (max-width: 1020px) {
+        #Navibar li a {
+            font-size: 14px;
+        }
+    }
+    @media screen and (max-width: 992px) {
+    .m-image-wrapper {
+        max-width: 100%;
+    }
+    .red-wrapper {
+        justify-content: center;
+    }
+    .m-image-wrapper2 {
+        width: 90%;
+    }
+  
+    .navbar-brand {
+    }
+}
+
+.navbar-toggle br:nth-child(-n+3), .navbar-toggle br:last-child {
+    display: none;
+}
+
+/* LESS THAN 992 */
+@media (max-width: 992px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+
+    .wpcf7-form {
+        margin: 0 auto;
+    }
+    .wpcf7-form label  {
+        display: inline;
+        margin: 0 auto;
+        max-width: 80%;
+    }
+
+    .footer-links {
+        float: none;
+        margin: 25px auto;
+        width: 25%;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+    .img-realtors {
+        margin: 50px auto;
+    }
+    .footer-contact {
+       width: 100%;
+       max-width: 100%;
+    }
+
+
+    .navbar-collapse > .nav > li > a {
+        background-color: rgba(255,255,255, 1) !important;
+    }
+    #NaviBar > li > a {
+        font-size: 14px;
+    }
+    #TopBar {
+        padding-left: 2px;
+    }
+    .navbar-brand {
+        padding: 2px;
+    }
+    .navi-fluid {
+        padding-left: 10px;
+        padding-right: 2px;
+    }
+    #about-link {
+        padding-right: 0;
+    }
+    .footer-mcm h2, .footer-mcm h3 {
+        text-align: center;
+
+    }
+    .contact-col {
+        text-align: center;
+    }
+    .footer-about p {
+        text-align: center;
+        max-width: 100%
+    }
+}
+
+ /* 992 */
+
+/* Responsive */
+
+@media screen and (min-width: 768) and (max-width: 992px) {
+    #recently-sold {
+        display: none;
+    }
+}
+
+
+
+@media screen and (min-width: 992px) {
+    .navbar-collapse.collapse {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100% !important;
+    }
+    .footer-links {
+        float: right;
+    }
+
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .navbar-collapse {
+        padding-left:2px;
+    }
+    #navbar {
+        padding-right: 5px;
+    }
+    #navbar .nav {
+        padding-left: 7px;
+    }
+    .nav > li > a {
+        padding: 10px 10px;
+    }
+
+}
+
+@media screen and (min-width: 1201px) {
+    
+    #NaviBar.container-fluid { 
+        padding-right: 0;
+    }
+    #navbar {
+        padding-right: 0 ;
+    }
+
+    .agent-wrapper > h2 {
+        font-size: 36px !important;
+    }
+    
+    .m-of-mcm span {
+        font-size: 36px;
+    }
+    
+    .bottom-col {
+        margin: 0 auto;
+    }
+    .footer-links {
+        float:left;
+        font-size: 24px;
+        white-space: nowrap;
+        max-width: 100%;
+    }
+    .mike-footer button.list-group-item {
+        max-width: 100%;
+
+    }
+    .mike-footer button.list-group-item i {
+        padding-right: 10px;
+    }
+    .mike-footer button.list-group-item span {
+        margin-left: 25px;
+    }
+
+    .m-footer-form label {
+        margin: 0 auto;
+    }
+
+    .footer-contact li:nth-child(1) {
+        padding-top: 0;
+    }
+    .m-footer-form .wpcf7-submit {
+    }   
+}
+
+
+
+@media screen and (min-width: 1201px) and (max-width: 1499px) {
+    #NaviBar li a {
+        font-size: 18px;
+        }
+} 
+
+
+  
+
+.agents-block .block-body .view {
+    border: 1px solid white;
+    border-radius:15px;
+    padding: 5px;
+}
+
+
+/* ABOUT US */
+
+
+/* Agent Profile */ 
+
+.houzez_agent-template-default #content-area {
+    display: none;
+}
+
+#agent_detail_contact_btn {
+    background-color: #610327;
+    border: 1px solid white;
+}
+
+.profile-detail-block {
+    background-color: #610327;
+    color: white;
+
+    margin-bottom: 0;
+}
+
+.profile-detail-block .form-small {
+    background-color: #610327;
+}
+.profile-detail-block .agent-title {
+    font-size: 24px;
+}
+
+.profile-detail-block p {
+ font-size: 18px;
+}

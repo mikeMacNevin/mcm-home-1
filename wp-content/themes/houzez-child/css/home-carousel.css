@@ -1,0 +1,12 @@
+#carousel-module-grid .btn-primary{
+	background-color: #610327;
+    transition: all 0.3s ease; 
+    border: #610327;
+}
+
+
+#carousel-module-grid .btn-primary:hover{
+    background-color: white;
+    color: #610327 !important;
+}
+

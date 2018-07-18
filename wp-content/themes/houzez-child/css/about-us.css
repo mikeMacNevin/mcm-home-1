@@ -1,0 +1,130 @@
+.team-of {
+    background-color: #222;
+    color: white;
+    height: 40px;
+    padding-left: 5px;
+    padding-top:10px;
+    font-family: Golden-Ratio;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 25px;
+}
+
+.team-of br {
+    display: none;
+}
+
+.agents-block .block-body .auther-info span {
+    font-size: 18px;
+}
+
+.agents-block .block-body .auther-info .blue {
+    color : white;
+    font-size: 24px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+}
+
+.agents-block .block-body p {
+    font-size: 18px;
+}
+
+.agent-wrapper h2 {
+    white-space: nowrap;
+}
+
+
+.top-hash {
+    top: 10px;
+    font-size: 28px;
+}
+
+.span-up {
+    font-size: 18px;
+}
+
+.houzez-header-main {
+    top: 40px;
+}
+
+.houzez-header-main .header-right {
+    display: none;
+}
+
+
+
+.header-section-4.nav-right .header-left {
+    padding-right: 0 !important;
+}
+
+
+
+.houzez-header-main > .container-fluid {
+    padding-right: 0 !important; 
+    padding-left:25px;
+}
+
+
+
+.row > .vc_general.vc_parallax {
+    padding-bottom: 5px;
+}
+
+div > #McmDc {
+    margin-bottom:0;
+}
+
+.page-main {
+    margin-bottom: 0;
+}
+.vc_general.vc_cta3 {
+    font-size: 1.2em !important;
+    margin-bottom: 0;
+}
+
+.vc_cta3-container {
+    margin-bottom: 0;
+}
+
+.white-block {
+    background-color: #610327 !important;
+    padding-bottom: 0 !important;
+}
+
+.agents-block {
+    background-color: #610327;
+}
+.page-template {
+    background-color: #444
+}
+.white--block .vc_parallax-inner.skrollable:nth-child(2) {
+    background: linear-gradient(rgba(50,50,50, 0.5), rgba(85, 85, 85, 0.5)), url("http://localhost/mcm/wp-content/uploads/2018/07/dc-chillin.jpg") no-repeat !important;
+}
+
+/* .section-detail-content.houzez-page-template {
+} */
+
+@media screen and (max-width: 992px ) {
+ .team-of {
+     display: none;
+ }
+}
+
+@media screen and (min-width: 992px ) {
+    
+    .page-template-template #section-body {
+        top: -95px;
+        bottom: -95px;
+    }
+
+    .page-template-property-listing-style2-fullwidth #section-body {
+        top: 45px;
+    }
+
+    .agents-blocks-main .col-md-3:first-child {
+        margin-left: 25%;
+    }
+    
+}
