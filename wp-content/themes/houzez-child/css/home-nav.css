@@ -1,3 +1,27 @@
+.container-fluid .navbar {
+    border: 0;
+}
+
+.navi-fluid {
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0px 3px 5px 0px #0000003d;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.24);
+    z-index: 50;
+}
+
+#navbar {
+    border: 0;
+}
+.navbar-right {
+    margin-right: 0;
+}
+
+.navbar-collapse {
+   z-index: 50; 
+}
+
+
+
 .houzez-header-mobile .container {
     margin-right: 0
 }
@@ -16,33 +40,50 @@
 
 .menu-item a {
     margin-top: 5px;
-    color: black !important;
+
 }
 
-#navbar {
-    border: 0;
+#navbar .nav {
+    margin-top: 22px;
+    height: 60px;
+}
+#navbar h3 {
+    margin-bottom:0 !important;
+    text-align: right;
+    font-family: "Adobe-Caslon" !important;
 }
 
-.inner-col .list-group-item {
-    background-color : rgba(255,255,255, 0);
+#navbar .nav li a {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0.2px;
+    border-color: #eee;
+
 }
+
+
+
+
 
 .navbar-default {
-    background-color: rgba(255,255,255, 0.3);
+    background-color: rgba(255,255,255, 0);
 }
 
 .navbar-brand {
     padding-top: 0px;
     padding-right: 5px;
+    z-index: 60;
 }
 
-.navbar-nav li {
-    border-right: 3px solid #fff;
+#MCM-brand {
+    margin-top:5px;
+    margin-left: 25px;
+    z-index: 40;
+    position: relative;
 }
 
-.navbar-nav li:first-child {
-    border-left: 3px solid white;
-  }
 
 
 .navbar-header > .navbar-toggle {
@@ -52,33 +93,74 @@
 
 #TopBar {
     display: flex;
-    font-size: 24px;
-    margin-top: 15px;
+    font-size: 40px;
     margin-bottom: 1px;
     color: #eee;
-    background-color: #610327 !important;
-    height: 30px;
-    padding-top: 6px;
-    padding-left: 18px;
+    height: 50px;
+    padding-top: 12px;
+    padding-left: 23px !important;
+    padding-bottom:10px;
+    padding-right:20px;
     font-family: "Adobe-Caslon";
     flex-direction: row;
+    justify-content: space-between;
+    background-color: #222;
 }
-#TopBar > span {
+#TopBar .topbar-w > span {
     padding-top: 0px;
     padding-right: 0;
     padding-left: 0;
-    font-size: 12px;
+    font-size: 16px;
 }
+
+.topbar-w {
+    padding-top: 5px;
+    align-self: flex-start;
+    flex: 1
+}
+
+.topbar-x {
+    flex: 1;
+}
+
+.topbar-x p {
+     margin-bottom: 1px;
+     text-align: right;
+}
+
+.topbar-x p:nth-child(1) {
+    margin-top: -5px;
+}
+.topbar-x p:nth-child(2) {
+    margin-top: -5px;
+}
+
 #NaviBar {
-    background-color: rgba(255,255,255,0.7);
-    height: 100px;
+    background-color: #333;
+    height: 80px;
     border: 0;
 }
 #NaviBar img {
     max-height: 100px;
 }
 
+#NaviBar li a {
+    color: rgb(235,235,235);
+    font-weight: bold;
+    font-family: Roboto;
+    border-radius: 5px;
+}
+
+#NaviBar li:hover {
+    background-color: rgba(255,255,255,0.4);
+}
+
+
+
+
+
 .navbar-header {
+
 }
 
 #MCMLogo2 {
@@ -92,28 +174,54 @@
 
 #NaviBar ul {
     font-weight: bold;
+    padding-left: 0;
 }
 
-#NaviBar li a {
-    color: #222;
-    background-color: rgba(255,255,255, 0);
-    font-weight: bold;
-    font-family: Roboto;
+
+.home-button-wrapper {
+    text-align: center;
+    padding-top: 16%   
 }
 
-#NaviBar li:hover {
-    background-color: rgba(255,255,255,0.4);
+.home-button-wrapper .button {
+    -webkit-box-shadow: 0px 0px 14px 5px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 0px 14px 5px rgba(0,0,0,0.16);
+    box-shadow: 0px 0px 14px 5px rgba(0,0,0,0.16);
 }
 
+.view-prop {
+  background-color:  rgba(97,3,39,0.7);
+  font-size: 36px;
+  border: white;
+  font-family: Golden-Ratio;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+
+/* Responsive */
 
 @media screen and (max-width: 1200px) {
-    
-  
+    #Navibar li a {
+        font-size: 14px;
+    }
+
+    #navbar .nav li a {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .navbar-collapse {
+        padding-right: 0px;
+    }
+
+    .navi-fluid {
+        padding-right: 0px;
+    }
 }
 
 @media screen and (max-width: 1020px) {
     #Navibar li a {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 
@@ -138,19 +246,23 @@
         display: block;
     }
     .navbar-collapse {
-        -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-        -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-        -o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-        border-top: 1px solid transparent;
+        width: 100% !important;
+        -webkit-box-shadow: inset 0px -2px 5px 1px rgba(0,0,0,0.18);
+        -moz-box-shadow: inset 0px -2px 5px 1px rgba(0,0,0,0.18);
+        box-shadow: inset 0px -2px 5px 1px rgba(0,0,0,0.18);
+        border-top: 3px solid transparent;
     }
     .navbar-collapse.collapse {
         display: none !important;
     }
+
+
     .navbar-nav {
         float: none !important;
         margin: 7.5px -15px;
     }
+
+
     .navbar-nav >li {
         float: none;
     }
@@ -169,6 +281,22 @@
 @media screen and (max-width: 768x) {
     #NaviBar {
         padding-left:15px;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .navbar-nav > li > a {
+        font-size: 14px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    #navbar .nav li a {
+        font-size: ;
     }
 }
 

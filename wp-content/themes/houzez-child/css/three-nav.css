@@ -1,0 +1,51 @@
+.three-nav-col {
+    transition: all  0.3s ease;
+    background-color: #610327;
+    min-height: 300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.three-nav-col a p, .three-nav-col a i, .three-nav-col a h3  {
+    color: white;
+}
+
+.three-nav-col:hover {
+    background-color: #560a26; 
+}
+
+
+.three-nav-col:nth-child(n - 1) {
+    border-right: 1px solid white;
+}
+
+.col-md-3 i {
+    font-size: 48px;
+}
+
+.col-md-3 h3 {
+    font-size: 36px;
+    font-family: Roboto;
+}
+
+.col-md-3 p {
+    font-size: 24px;
+}
+
+.three-nav {
+    transition: all ease;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.three-nav p, .three-nav h3 {
+    text-align: center;
+}
+

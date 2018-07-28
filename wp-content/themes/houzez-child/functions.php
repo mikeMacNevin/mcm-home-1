@@ -20,6 +20,11 @@ function enqueue_child_theme_styles() {
     wp_enqueue_style( 'home-nav', get_stylesheet_directory_uri() . '/css/home-nav.css');
     wp_enqueue_style( 'footer', get_stylesheet_directory_uri() . '/css/footer.css');
     wp_enqueue_style( 'home-carousel', get_stylesheet_directory_uri() . '/css/home-carousel.css');
+    wp_enqueue_style( 'three-nav', get_stylesheet_directory_uri() . '/css/three-nav.css');
+    wp_enqueue_style( 'active-listings', get_stylesheet_directory_uri() . '/css/active-listings.css');
+    wp_enqueue_style( 'home', get_stylesheet_directory_uri() . '/css/home.css');
+
+
 
 }
 

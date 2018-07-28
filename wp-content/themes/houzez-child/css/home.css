@@ -1,0 +1,39 @@
+.home .article-detail {
+    padding-left: 0px !important;
+} 
+
+.navbar-collapse .header-h1 {
+    margin-bottom: 10px;
+    color: rgb(235,235,235);
+    font-size: 64px;
+    margin-top: 10px;
+    font-family: Adobe-Caslon;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.navbar-collapse .header-h1 {
+
+}
+
+#OuterLayer .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+
+.par-text-col {
+    padding: 150px 0px;
+    color: white !important;
+}
+
+.par-text-col .wpb_wrapper {
+    padding: 25px;
+    font-size: 36px;
+}
+
+.par-text-col .wpb_wrapper p {
+    font-size: 24px;
+    text-align: center;
+}

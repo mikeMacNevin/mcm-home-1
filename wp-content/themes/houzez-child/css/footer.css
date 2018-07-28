@@ -1,46 +1,48 @@
+.footer-bottom {
+    color: white;
+    background: #333;
+}
+
 /* FOOTER STYLES */
 .mike-footer {
     color: #eee;
-    background: linear-gradient(to bottom, rgb(50,50,50), #444 40%);
+    background-color: #333;
     
 }
-/* .align-row {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-} */
 
-/* 
-.mike-footer .col-md-4 {
-    display: flex;
-    height: 400px;
-    padding-right: 5px;
-    padding-left: 5px;
-    flex-direction: column;
-} */
+.footer-top-half {
 
-.contact-h3 {
-    font-size: 48px;
-    font-family: "Adobe-Caslon";
 }
+
+.top-col {
+    padding-top: 3%;
+    padding-bottom:0%;
+}
+
 .inner-col {
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     -o-box-shadow: none;
     box-shadow: none;
     border: 0;
-    margin: 0 auto
 }
-
 
 .footer-mcm h2 {
-    font-size: 36px;
-    font-family: Golden-Ratio;
+    padding-top: 5px;
+    font-size: 48px;
+
+}
+
+.footer-mcm h2 {
+    margin-top:5px;
+
+    font-family: "Adobe Caslon";
 }
 .footer-mcm h3 {
+    font-size: 48px;
+    padding-left: 3px;
     font-size: 30px;
-    font-family: Golden-Ratio;
-    margin-bottom:5px;
+    font-family: "Adobe Caslon";
 
 }
 
@@ -54,54 +56,28 @@
     
     max-width: 100px;
 }
-.contact-col .list-group .list-group-item {
+.contact-col .list-group .list-group-item:nth-child(n - 1) {
     flex-direction: column;
     padding-left: 0;
-    padding-top:5px;
+    padding-top: 5px;
     padding-bottom: 5px;
 }
 .contact-col .list-group .text-nowrap {
     margin-bottom: 2px;
 }
-button.list-group-item span {
-    color: black;
-    background-color: #eee;
-    padding-left: 10px;
-}
-.list-group-item  i {
-    width: 23px;
-}
-   
 
-.footer-contact {
-    max-width: 90%;
-    font-size: 24px;
-}
-.footer-contact li {
-    font-size: 18px;
-    border: 0;
+
+/* FOOTER TOP HALF*/ 
+
+.contact-h3 {
+    font-size: 36px;
+    font-family: 'Adobe-Caslon';
 }
 
-.contact-col {
-    display:flex;
-    flex-direction: row;
-}
 
-#carousel-module-grid {
-    background-color: #610327;
+/*  CONTACT FORM 7 */
+.wpcf7-form {
 }
-
-.footer-about {
-    text-align: left;
-}
-.footer-about p {
-    float:right;
-    font-size: 18px;
-}
-.m-footer-form {
-    padding-top: 25px;
-}
-
 .wpcf7-form:last-child {
     max-width: 570px;
 }
@@ -116,18 +92,33 @@ button.list-group-item span {
     background-color: #610327;
 }
 
+
+/* ////////FOOTER-BOTTOM ///////*/
+
 .footer-bottom-half {
-    background-color: #444;
+    background-color: #222;
+    padding-top: 4%;
+
 }
 
-.footer-about .input-group {
-    margin-top: 10%;
+/* FOOTER LEFT COLUM*/
+
+
+
+#equal-image-wrapper {
+    background-color: #eee;
+    padding: 25px;
+    
 }
 
-button.list-group-item {
+
+
+.mike-footer button.list-group-item {
     font-size: 24px;
-    width:100%;
+    width:100% !important;
     white-space: nowrap;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .footer-mcm {
@@ -138,26 +129,86 @@ button.list-group-item {
     vertical-align: center;
 }
 
+
+
+/* FOOTER CONTACT INFO */
+.footer-contact {
+    max-width: 90%;
+    font-size: 24px;
+}
+.footer-contact .list-group-item {
+    background-color: rgba(2,2,2,0.0);
+}
+
+.footer-contact li {
+    font-size: 24px;
+    border: 0;
+}
+
+.contact-col {
+    display:flex;
+    flex-direction: row;
+}
+
+#carousel-module-grid {
+    background-color: #610327;
+}
+
+.footer-image-col {
+    text-align: left;
+}
+.footer-image-col p {
+    float:right;
+    font-size: 18px;
+}
+.m-footer-form {
+}
+
+/* FOOTER LINKS */
+
 .footer-links {
     font-size: 18px;
     /* background-color: #555; */
     max-width: 90%;
 }
-
-
 .footer-links .list-group-item {
+    transition: all ease-in;
+    background-color: #333;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 0.1px solid #eee !important;
+    border-radius: 10px;
+    text-align: center;
     float: right;
-    padding-top:5px;
     padding-bottom: 5px;
     border: 0 solid #ddd;
-    padding-left: 0;
 }
+.footer-links .list-group-item:hover {
+    color: #333;
+}
+
+  
+
+button.list-group-item {
+    border: 0.4px solid white;
+    background-color: #444;
+}
+
+
+button.list-group-item span {
+    color: black;
+    padding-left: 10px;
+}
+.list-group-item  i {
+    width: 23px;
+}
+
 
 .footer-links .list-group-item, 
 .footer-links .list-group-item span,
 .footer-links .list-group-item span i {
-    background-color: #444 !important ;
-    color: #eee !important;
+   
+    color: #eee ;
     vertical-align: center;
 }
 
@@ -173,36 +224,45 @@ p > .wpcf7-submit:hover {
 
 .img-realtors{
   height: 100px;
+  margin: 0 auto;
 }
 
+.equal-image-wrapper {
+    background-color:white;
+}
+#equal-image-wrapper {
+    background: url('/mcm/wp-content/themes/houzez-child/images/EqualRealtors.png') center no-repeat;
+    height: 100px;
+    width: 80%''
+}
 
 .mike-footer-bottom {
-    background-color: #666;
+    background-color: #333;
     height: 60px;
     padding-top: 100px;
 }
 
-
+.footer-p {
+    font-size: 24px;
+}
 
 .img-realtors {
     margin-left: auto;
 }
 
 .form-col {
-    padding-left: 4%;
+    height: 100%;
 }
 
-/* <div class="col-xs-12 col-md-6">
-<div class="inner-col footer-about">
-    <div class="footer-mcm">
-        <h2>The Hash Team</h2>
-        <h3>of MCM Realty</h3>
-        <br>
-    </div> 
-    <p>MCM Realty is a full-service boutique firm serving our clients’ commercial, residential, custom building, and investment real estate needs for over 30 years.</p>
-    <br>
-</div>
-</div>     */
+.form-col-inner {
+
+}
+
+.col-md-3 .contact-h3 {
+    text-align: center;
+    font-family: "Adobe-Caslon"
+}
+
 
 @media screen and (max-width: 768px) {
     #equal-image-wrapper {
@@ -219,23 +279,53 @@ p > .wpcf7-submit:hover {
     
 }
 
+.footer-about-h3 {
+    font-size: 36px;
+    text-align: center;
+    font-family: Adobe-Caslon;
+}
+
+
 @media screen and (min-width: 768px) {
     .contact-col {
     padding-right: 0px;
     }
-    .footer-links-col {
-    padding-right: 0px;
-    }
+ 
 
     .footer-bottom-half .col-sm-3 {
         padding-left: 5px;
         padding-right: 5px;
     }
+}
+
+@media screen and (max-width: 992px) {
+  
 
 }
 
-@media screen and (min-width: 1200px) {
-    .form-col {
-        padding-left: 8%;
+@media screen and (min-width: 992px) {
+    .footer-left-col {
+        padding-left: 15px;
+    }  
+    .inner-col {
+        max-width: 90%;
+    }  
+    #equal-image-wrapper {
+        max-width: 90%;
+    }
+  
+    .footer-links .list-group-item span:hover  {
+        color: #333!important;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    
+
+}
+
+@media screen and (max-width: 1200px) {
+    .mike-footer button.list-group-item {
+        font-size: 14px;
     }
 }

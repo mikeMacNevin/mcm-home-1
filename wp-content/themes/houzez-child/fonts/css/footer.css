@@ -75,7 +75,9 @@ justify-content: center;
 .list-group-item p:nth-child(1) {
     font-weight: bold;
     text-decoration: underline;
-
+}
+.list-group-item {
+    background-color: #222 !important;
 }
 
 .contact-col {
@@ -86,18 +88,18 @@ justify-content: center;
 .contact-col .list-group-item {
     padding-top:5px;
     padding-bottom: 5px;
+    background-color: rgba(35,35,35, 0.0) !important;
 }
 
-.footer-contact {
 
-}
+
 
 .footer-contact li {
     border: 0;
     font-size: 18px;
 }
 
-.footer-about p{
+.footer-about p {
     font-size: 16px;
 
 }

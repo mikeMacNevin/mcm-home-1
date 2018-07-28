@@ -1,3 +1,7 @@
+
+.header-section-4 .navi ul li {
+    font-family: Roboto !important;
+}
 .team-of {
     background-color: #222;
     color: white;
@@ -12,23 +16,53 @@
     padding-right: 25px;
 }
 
+.page-id-105 {
+    color:white;
+}
+
+.page-id-105 h1 {
+    font-family: "Adobe Caslon" !important;
+
+}
+.page-id-105 h4 {
+    font-family: "Adobe Caslon" !important;
+
+   font-size: 48px; 
+}
+
 .team-of br {
     display: none;
 }
 
+.agents-block-main .col-md-3 {
+    width: 50%;
+} 
+
+.agents-block {
+    color: white;
+}
+
+.agents-block p {
+    font-size: 24px; 
+}
+
 .agents-block .block-body .auther-info span {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .agents-block .block-body .auther-info .blue {
     color : white;
-    font-size: 24px;
+    font-size: 36px;
     padding-bottom: 5px;
+    margin-bottom: 5px;
     text-decoration: underline;
+}
+.agents-block .block-body .auther-info span:nth-child(2) {
+    font-size: 24px;
 }
 
 .agents-block .block-body p {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .agent-wrapper h2 {
@@ -45,15 +79,14 @@
     font-size: 18px;
 }
 
-.houzez-header-main {
-    top: 40px;
-}
 
 .houzez-header-main .header-right {
     display: none;
 }
 
+.header-section-4 .navi ul li {
 
+} 
 
 .header-section-4.nav-right .header-left {
     padding-right: 0 !important;
@@ -63,9 +96,14 @@
 
 .houzez-header-main > .container-fluid {
     padding-right: 0 !important; 
-    padding-left:25px;
+    padding-left:35px;
 }
 
+.page-id-105 .vc_cta3-content p {
+    background-color: rgba(35,35,35, 0.5);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 
 
 .row > .vc_general.vc_parallax {
@@ -96,12 +134,20 @@ div > #McmDc {
 .agents-block {
     background-color: #610327;
 }
+
+
 .page-template {
     background-color: #444
 }
 .white--block .vc_parallax-inner.skrollable:nth-child(2) {
     background: linear-gradient(rgba(50,50,50, 0.5), rgba(85, 85, 85, 0.5)), url("http://localhost/mcm/wp-content/uploads/2018/07/dc-chillin.jpg") no-repeat !important;
 }
+
+
+#McmDc p {
+    color:white;
+}
+
 
 /* .section-detail-content.houzez-page-template {
 } */
@@ -113,16 +159,13 @@ div > #McmDc {
 }
 
 @media screen and (min-width: 992px ) {
-    
-    .page-template-template #section-body {
+    .page-id-105  .houzez-header-main {
+        top: 40px;
+    }
+    .page-id-105  #section-body {
         top: -95px;
         bottom: -95px;
     }
-
-    .page-template-property-listing-style2-fullwidth #section-body {
-        top: 45px;
-    }
-
     .agents-blocks-main .col-md-3:first-child {
         margin-left: 25%;
     }
